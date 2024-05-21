@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+.Button  {
+    display:flex;
+    align-items: center;
+   width: 300px;
+   border: 1px solid #000000;
+   border-radius: 5%;
+   margin: auto;
+   height: 100px;
+   background-color: aqua;
+}
+.Button > button {
+    width: 200px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    cursor: pointer;
+    
+   
+}
+.Margin {
+    margin-top: 50px;
+}
+.Table {
+    
+    margin: auto;
+    border: #000000 solid 1px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.Table > td {
+    border: 1px solid #000000;
+    border-radius: 5%;
+}
+.images {
+    padding-top: 20px;;
+    justify-content: space-between;
+    width: 500px;;
+    margin: auto;
+    display: flex;
+}
+.description {
+    padding: 10px;;
+    margin: auto;
+    width: 500px;;
+    display: flex;
+    justify-content: space-between;
+}
+.description > figcaption {
+    width: 150px;
+    text-align: center;
+    display: none;
+}
+.Title {
+    text-align: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+.form > form {
+    width: 200px;;
+    margin-top: 10px;;
+}
+.Pass {
+    margin-top: 20px;;
+}
+.Enter {
+    margin-top: 20px;;
+}
